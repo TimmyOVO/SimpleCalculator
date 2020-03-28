@@ -68,6 +68,7 @@ bool MainWindow::applyOperator(CalculatorOperator op) {
     auto value = getCurrentValue();
     previousValue = value;
     resetCurrentValue();
+    return true;
 }
 
 QString MainWindow::getCurrentValue() {
