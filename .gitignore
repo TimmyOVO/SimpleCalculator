@@ -5,6 +5,7 @@ Makefile
 Makefile.Debug
 Makefile.Release
 .qmake.stash
+Calculator.pro.*
 *.iml
 *.ipr
 *.iws
